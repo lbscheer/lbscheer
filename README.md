@@ -12,17 +12,17 @@
 
 ---
 
-### 👋 About me
+### About me
 
-- 🎓 Software Engineering student at **Fundação Santo André (FSA)**, graduating in 2029
-- 🏭 Apprentice at **Toyota Empilhadeiras** (Key Account), where I turn manual processes into automations
-- 🤖 I build with AI every day, from automation scripts to full web apps
+-  Software Engineering student at **Fundação Santo André (FSA)**, graduating in 2029
+-  Apprentice at **Toyota Empilhadeiras** (Key Account), where I turn manual processes into automations
+-  I build with AI every day, from automation scripts to full web apps
 - 🌎 Upper-intermediate English, with an exchange program in Canada (ILAC)
 - 🎯 Goal: become a **quant developer**
 
 ---
 
-### 🛠️ Building with AI
+### Building with AI
 
 | Project | What it does | AI in it |
 |---|---|---|
@@ -32,43 +32,43 @@
 
 ---
 
-### 🧰 Tech stack
+### Tech stack
 
 **AI**
 <br/>
 <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Prompt_Engineering-6E40C9?style=for-the-badge"/>
 
-**Code**
+**Daily use**
 <br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python_(basic)-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Excel_VBA-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+
+**Built with AI · currently learning**
+<br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
 
-**Automation & tools**
-<br/>
-<img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white"/>
-<img src="https://img.shields.io/badge/Excel_VBA-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-
 ---
 
-### 📊 GitHub stats
+### GitHub stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=github_dark&hide_border=true"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=github_dark&hide_border=true"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=lbscheer&show_icons=true&theme=github_dark&hide_border=true"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lbscheer&layout=compact&theme=github_dark&hide_border=true"/>
 </p>
 
 ---
 
-### 🌱 Currently
+### Currently
 
 - Learning **Git** and **Calculus** (limits → derivatives)
 - Shipping Eskina, one commit at a time
 
 <!-- Cobrinha comendo as contribuições (precisa da GitHub Action do arquivo snake.yml) -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_USUARIO/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
+  <img src="https://raw.githubusercontent.com/lbscheer/lbscheer/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
 </p>
