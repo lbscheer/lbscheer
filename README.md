@@ -60,14 +60,3 @@
   <img src="https://streak-stats.demolab.com?user=lbscheer&theme=github-dark-blue&hide_border=true&ring=2EA043&fire=2EA043&currStreakLabel=2EA043" alt="GitHub streak"/>
 </p>
 
----
-
-### Currently
-
-- Learning **Git** and **Calculus** (limits → derivatives)
-- Shipping Eskina, one commit at a time
-
-<!-- Cobrinha comendo as contribuições (precisa da GitHub Action do arquivo snake.yml) -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lbscheer/lbscheer/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
-</p>
