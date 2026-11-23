@@ -15,144 +15,100 @@ Depois de cada pergunta você tem cinco segundos para responder de cabeça. Depo
 Vamos começar.
 
 ## O que é limite e o passo um {principal}
-
-Primeiro, a ideia de limite.
-O limite pergunta uma coisa simples: para onde a função vai quando x chega perto de um número.
-Quando você lê limite quando x tende a três, pense assim: x está chegando cada vez mais perto de três. Para que valor a função está indo?
-Repare que o limite fala de chegar perto. Não importa tanto o que acontece exatamente em cima do número.
-Na prática, o passo um é sempre o mesmo: substitua x pelo número.
-Depois de substituir, só existem três casos possíveis.
-Caso um: deu um número. Esse número é a resposta.
-Caso dois: deu zero sobre zero. Aí é preciso fatorar.
-Caso três: deu um número diferente de zero, dividido por zero. Aí a função vai para o infinito.
-Vamos fazer um exemplo. Limite quando x tende a dois de x ao quadrado mais três x.
-Passo um: substituo x por dois. Dois ao quadrado dá quatro.
-Três vezes dois dá seis.
-Quatro mais seis dá dez. Deu um número, então a resposta é dez.
-Por que posso substituir direto? Porque não apareceu nenhuma divisão por zero. A função está bem comportada perto de dois.
+Limite responde a uma pergunta: para onde a função vai quando x chega perto de um número.
+Limite quando x tende a três quer dizer: x chegando cada vez mais perto de três.
+O passo um é sempre o mesmo: substitua x pelo número.
+Aí aparecem três casos. Deu um número, é a resposta. Deu zero sobre zero, fatore. Deu número sobre zero, vai para infinito.
+Exemplo: limite quando x tende a dois de x ao quadrado mais três x.
+Substituo x por dois. Dois ao quadrado dá quatro, e três vezes dois dá seis. Quatro mais seis dá dez.
+Não apareceu divisão por zero, então a resposta é dez.
 PERGUNTA: Qual é sempre o primeiro passo para calcular um limite?
-RESPOSTA: Substituir x pelo número. Só depois de substituir você descobre em qual dos três casos está.
+RESPOSTA: Substituir x pelo número. Só depois você sabe em qual caso está.
 PERGUNTA: Calcule o limite quando x tende a dois de três x mais um.
-RESPOSTA: Sete. Substituindo, três vezes dois mais um dá sete, que é um número, então é a resposta.
-Guarde a ideia: limite é para onde a função vai, e o primeiro passo é sempre substituir.
+RESPOSTA: Sete. Substituindo, três vezes dois mais um dá sete.
+Guarde: limite é para onde a função vai, e o primeiro passo é sempre substituir.
 
 ## Caso um: deu um número {principal}
-
-Agora vamos ver com calma o caso em que a substituição dá um número.
-Se você substituiu e apareceu um número normal, pronto. Esse é o limite.
-Isso vale também para frações, desde que o de baixo não dê zero.
-Tem uma pegadinha aqui. Zero dividido por um número dá zero, e zero é uma resposta válida.
-Por exemplo, zero sobre quatro dá zero. Não confunda com zero sobre zero. Zero só em cima não é problema.
-O problema só aparece quando o zero está embaixo.
+Agora o caso em que a substituição dá um número. Pronto: esse número é o limite.
+Cuidado com uma pegadinha: zero dividido por um número dá zero, e zero é resposta válida.
+Zero sobre quatro é zero. Só é problema quando o zero está embaixo.
 Exemplo: limite quando x tende a dois de x ao quadrado menos quatro, tudo dividido por x mais dois.
-Substituo x por dois. Em cima: dois ao quadrado dá quatro, menos quatro dá zero.
-Embaixo: dois mais dois dá quatro.
-Ficou zero sobre quatro. O zero está só em cima, e embaixo tem um número.
-Zero dividido por quatro é zero. Então o limite é zero, e acabou. Não precisa fatorar.
+Em cima, quatro menos quatro dá zero. Embaixo, dois mais dois dá quatro.
+Zero sobre quatro é zero. O limite é zero, e não precisa fatorar.
 PERGUNTA: Calcule o limite quando x tende a um de x ao quadrado menos um, tudo dividido por x mais três.
-RESPOSTA: Zero. Em cima dá um menos um, que é zero, e embaixo dá quatro. Zero sobre quatro é zero, caso um.
+RESPOSTA: Zero. Em cima dá um menos um, que é zero, e embaixo dá quatro. Zero sobre quatro é zero.
 PERGUNTA: Calcule o limite quando x tende a dois de x mais seis, tudo dividido por x mais dois.
 RESPOSTA: Dois. Em cima dá oito, embaixo dá quatro, e oito dividido por quatro é dois.
-Ideia-chave: deu número, é a resposta. E zero sobre um número é zero, resposta válida.
+Ideia-chave: deu número, é a resposta, e zero sobre um número é zero.
 
 ## Caso dois: zero sobre zero {principal}
-
-Agora vamos ver o caso mais comum na prova: quando a substituição dá zero sobre zero.
-Zero sobre zero não é resposta. É um aviso.
-O aviso diz: existe um fator x menos a escondido em cima e embaixo. O a é o número para onde x tende.
-Se x tende a três, o fator escondido é x menos três. Se x tende a quatro, é x menos quatro.
-O trabalho é abrir as expressões, achar esse fator, cortar em cima e embaixo, e depois substituir de novo.
-Por que posso cortar? Porque x está chegando perto de três, mas não é igual a três. Então x menos três não é zero, e pode ser cancelado.
-Existem três jeitos de abrir.
-Primeiro jeito: diferença de quadrados. x ao quadrado menos nove é igual a x menos três, vezes x mais três.
-A regra é: um quadrado menos outro quadrado vira a diferença vezes a soma.
-Segundo jeito: fator comum. x ao quadrado menos três x é igual a x vezes x menos três. Coloquei o x em evidência.
-Terceiro jeito: trinômio, por soma e produto.
-Procure dois números que somam o número do meio e multiplicam o número do final.
-Tem um atalho. Se x tende a dois, você já sabe que um fator é x menos dois. O outro número é o termo final dividido por menos dois.
-Por exemplo, x ao quadrado mais x menos seis, com x tendendo a dois. Um fator é x menos dois. O outro número é menos seis dividido por menos dois, que dá três. Então fica x menos dois, vezes x mais três.
-Um cuidado importante: x ao quadrado mais nove nunca dá zero.
-x ao quadrado nunca é negativo. Somando nove, o resultado é sempre pelo menos nove.
-Então x ao quadrado mais nove nunca é o culpado do zero sobre zero. Nele, você só substitui.
-E se aparecer raiz quadrada e der zero sobre zero, a técnica tem outro nome: conjugado. Por enquanto, só guarde o nome.
-Exemplo resolvido: limite quando x tende a três de x ao quadrado menos nove, tudo dividido por x menos três.
-Passo um: substituo. Em cima, nove menos nove dá zero. Embaixo, três menos três dá zero. Deu zero sobre zero.
-Então o fator x menos três está escondido. Em cima tenho diferença de quadrados.
-x ao quadrado menos nove vira x menos três, vezes x mais três.
-Agora corto o x menos três de cima com o x menos três de baixo. Sobra só x mais três.
+Agora o caso mais comum na prova: a substituição dá zero sobre zero.
+Zero sobre zero não é resposta. É um aviso: existe um fator x menos a escondido em cima e embaixo, onde a é o número para onde x tende.
+Você abre as expressões, corta esse fator e substitui de novo.
+Pode cortar porque x chega perto de a, mas não é igual a a. Então x menos a não é zero.
+Três jeitos de abrir. Primeiro, diferença de quadrados: x ao quadrado menos nove é igual a x menos três, vezes x mais três.
+Segundo, fator comum: x ao quadrado menos três x é igual a x vezes x menos três.
+Terceiro, trinômio por soma e produto: dois números que somam o do meio e multiplicam o do final.
+Atalho: se x tende a dois, um fator é x menos dois, e o outro número é o termo final dividido por menos dois.
+Por exemplo, x ao quadrado mais x menos seis: menos seis dividido por menos dois dá três. Então fica x menos dois, vezes x mais três.
+Cuidado: x ao quadrado mais nove nunca dá zero, porque x ao quadrado nunca é negativo. Ele nunca é o culpado do zero sobre zero. Nele, só substitua.
+E se aparecer raiz quadrada com zero sobre zero, a técnica é o conjugado. Por enquanto, só guarde o nome.
+Exemplo: limite quando x tende a três de x ao quadrado menos nove, tudo dividido por x menos três.
+Substituo: nove menos nove, sobre três menos três. Deu zero sobre zero.
+Abro em cima por diferença de quadrados: x menos três, vezes x mais três.
+Corto o x menos três de cima com o de baixo. Sobra x mais três.
 Substituo de novo: três mais três dá seis. O limite é seis.
 PERGUNTA: Calcule o limite quando x tende a três de x ao quadrado menos três x, tudo dividido por x menos três.
-RESPOSTA: Três. Pelo fator comum, em cima fica x vezes x menos três. Corta o x menos três e sobra x, que vale três.
+RESPOSTA: Três. Pelo fator comum, fica x vezes x menos três. Corta o x menos três e sobra x, que vale três.
 PERGUNTA: Calcule o limite quando x tende a dois de x ao quadrado menos cinco x mais seis, tudo dividido por x menos dois.
-RESPOSTA: Menos um. Fatora em x menos dois, vezes x menos três. Corta o x menos dois e sobra dois menos três, que é menos um.
+RESPOSTA: Menos um. Fatora em x menos dois, vezes x menos três. Corta e sobra dois menos três.
 PERGUNTA: Quanto vale x ao quadrado mais nove quando x é três? E por que ele nunca zera?
-RESPOSTA: Dezoito, porque nove mais nove dá dezoito. Ele nunca zera porque x ao quadrado nunca é negativo, então o menor valor possível é nove.
-Ideia-chave: zero sobre zero significa fator x menos a escondido. Fatore, corte e substitua de novo.
+RESPOSTA: Dezoito. Ele nunca zera porque x ao quadrado nunca é negativo, então o menor valor é nove.
+Ideia-chave: zero sobre zero significa fator escondido. Fatore, corte e substitua de novo.
 
 ## Caso três: número sobre zero {principal}
-
-Agora vamos ver o terceiro caso: quando a substituição dá um número diferente de zero, dividido por zero.
-Por exemplo, cinco sobre zero. Isso não é zero sobre zero, e não tem fator para cortar.
-Quando o de baixo fica minúsculo e o de cima é um número fixo, a divisão fica gigante. A função vai para o infinito.
-A única dúvida é o sinal: mais infinito ou menos infinito?
-Para descobrir, teste um número um pouquinho menor e um pouquinho maior que o a.
-Pela esquerda, use a menos zero vírgula zero um. Pela direita, use a mais zero vírgula zero um.
-Depois aplique a regra de sinais.
-Positivo dividido por positivo dá positivo. Positivo dividido por negativo dá negativo. Negativo dividido por negativo dá positivo.
-Se os dois lados derem o mesmo infinito, o limite é esse infinito. Se derem sinais diferentes, o limite não existe.
-Um atalho: se o de baixo está ao quadrado, ele é sempre positivo, porque qualquer número ao quadrado é positivo. Então o sinal depende só do de cima.
-E onde o denominador zera, mas o de cima não, existe uma assíntota vertical. É uma reta vertical da qual o gráfico chega cada vez mais perto, subindo ou descendo sem parar.
-Exemplo: limite quando x tende a quatro de três, tudo dividido por x menos quatro.
-Substituo: três sobre quatro menos quatro, ou seja, três sobre zero. É o caso três.
-Pela esquerda, testo três vírgula noventa e nove. Três vírgula noventa e nove menos quatro dá menos zero vírgula zero um, que é negativo.
-Três, positivo, dividido por um negativo dá negativo. Pela esquerda vai para menos infinito.
-Pela direita, testo quatro vírgula zero um. Quatro vírgula zero um menos quatro dá zero vírgula zero um, positivo.
-Positivo sobre positivo dá positivo. Pela direita vai para mais infinito.
-Os lados são diferentes, então o limite não existe. E a assíntota vertical é x igual a quatro.
+Agora o terceiro caso: a substituição dá um número diferente de zero, dividido por zero. Por exemplo, cinco sobre zero.
+Número fixo dividido por algo minúsculo fica gigante. A função vai para o infinito. Falta só descobrir o sinal.
+Teste os dois lados. Pela esquerda, use a menos zero vírgula zero um. Pela direita, a mais zero vírgula zero um.
+Regra de sinais: positivo sobre positivo dá positivo, positivo sobre negativo dá negativo, e negativo sobre negativo dá positivo.
+Se os dois lados dão o mesmo infinito, o limite é esse infinito. Se dão sinais diferentes, o limite não existe.
+Atalho: denominador ao quadrado é sempre positivo, então o sinal depende só do de cima.
+E onde o denominador zera, existe uma assíntota vertical.
+Exemplo: limite quando x tende a quatro de três, tudo dividido por x menos quatro. Substituindo, dá três sobre zero.
+Pela esquerda, com três vírgula noventa e nove, o de baixo dá menos zero vírgula zero um. Positivo sobre negativo: menos infinito.
+Pela direita, com quatro vírgula zero um, o de baixo dá zero vírgula zero um. Positivo sobre positivo: mais infinito.
+Os lados são diferentes. O limite não existe, e a assíntota vertical é x igual a quatro.
 PERGUNTA: Calcule o limite quando x tende a um de cinco, tudo dividido por x menos um.
-RESPOSTA: Pela esquerda dá menos infinito e pela direita dá mais infinito. Então o limite não existe, e a assíntota vertical é x igual a um.
+RESPOSTA: Pela esquerda dá menos infinito e pela direita dá mais infinito. O limite não existe, e a assíntota vertical é x igual a um.
 PERGUNTA: Calcule o limite quando x tende a dois de três, tudo dividido por x menos dois, com esse x menos dois elevado ao quadrado.
-RESPOSTA: Mais infinito dos dois lados. O de baixo está ao quadrado, então é sempre positivo, e três positivo sobre um positivo pequenininho dá mais infinito.
-Ideia-chave: número sobre zero vai para infinito. Teste o sinal dos dois lados, e onde o de baixo zera há assíntota vertical.
+RESPOSTA: Mais infinito dos dois lados. O de baixo, ao quadrado, é sempre positivo.
+Ideia-chave: número sobre zero vai para infinito. Teste o sinal dos dois lados.
 
 ## Função com duas regras e limites laterais {principal}
-
-Agora vamos ver funções definidas com duas regras.
-É aquela função com uma chave: uma fórmula para x menor que um número, e outra fórmula para x maior ou igual a esse número.
-Nesse número de troca, você precisa calcular os dois limites laterais.
-O limite pela esquerda vem de números menores que a. Então ele usa a regra do menor que.
-O limite pela direita vem de números maiores que a. Então ele usa a regra do maior ou igual.
-Em cada lado, você substitui o número na fórmula daquele lado.
-Se os dois laterais forem iguais, o limite existe e vale esse número. Se forem diferentes, o limite não existe.
-Exemplo: g de x vale dois x mais um quando x é menor que um, e vale x mais dois quando x é maior ou igual a um. Qual é o limite quando x tende a um?
-Pela esquerda, uso a regra do menor que: dois vezes um, mais um, dá três.
-Pela direita, uso a regra do maior ou igual: um mais dois dá três.
-Os dois deram três. Os laterais são iguais, então o limite existe e vale três.
+Agora, funções com duas regras: uma fórmula para x menor que um número, e outra para x maior ou igual a ele.
+No ponto de troca, calcule os dois limites laterais.
+A esquerda usa a regra do menor que. A direita usa a regra do maior ou igual.
+Se os laterais forem iguais, o limite existe. Se forem diferentes, não existe.
+Exemplo: g de x vale dois x mais um para x menor que um, e vale x mais dois para x maior ou igual a um.
+Pela esquerda: dois vezes um, mais um, dá três. Pela direita: um mais dois dá três. São iguais, então o limite é três.
 PERGUNTA: S de x vale x mais três quando x é menor que dois, e vale x ao quadrado quando x é maior ou igual a dois. Quanto dão os laterais em dois, e o limite existe?
 RESPOSTA: Pela esquerda dá cinco, pela direita dá quatro. Como são diferentes, o limite não existe.
-PERGUNTA: Numa função de duas regras, o limite pela esquerda deu sete e o pela direita também deu sete. O limite existe?
-RESPOSTA: Existe e vale sete, porque os dois laterais são iguais.
-Ideia-chave: a esquerda usa a regra do menor que, a direita usa a do maior ou igual. Se forem iguais, o limite existe.
+PERGUNTA: Os dois limites laterais deram sete. O limite existe?
+RESPOSTA: Existe e vale sete, porque os laterais são iguais.
+Ideia-chave: esquerda usa o menor que, direita usa o maior ou igual. Iguais, o limite existe.
 
 ## Continuidade {principal}
-
-Agora vamos falar de continuidade.
-Uma função é contínua em um ponto quando você desenha o gráfico ali sem tirar o lápis do papel.
-Na prova, você verifica isso com três perguntas.
-Primeira: f de a existe? Ou seja, a função tem valor no ponto?
-Segunda: o limite quando x tende a a existe? Lembre: os laterais precisam ser iguais.
-Terceira: o valor f de a é igual ao limite?
-Se as três respostas forem sim, a função é contínua. Se qualquer uma for não, ela não é contínua.
-E quando pedem para tornar a função contínua, a resposta é: defina f de a igual ao valor do limite.
-Exemplo: f de x é x ao quadrado menos nove, tudo dividido por x menos três, quando x é diferente de três. E f de três vale cinco. A função é contínua em três?
-Primeira pergunta: f de três existe? Sim, vale cinco.
-Segunda: o limite existe? Já calculamos esse limite. Fatorando, dá seis. Existe.
-Terceira: são iguais? f de três é cinco, e o limite é seis. Não são iguais.
-Então f não é contínua em três. Para tornar contínua, f de três deveria valer seis, que é o valor do limite.
+Agora, continuidade. Ser contínua é poder desenhar o gráfico ali sem tirar o lápis do papel.
+Na prova, faça três perguntas. Um: f de a existe? Dois: o limite existe? Três: f de a é igual ao limite?
+Três vezes sim, é contínua. Qualquer não, não é contínua.
+Para tornar a função contínua, defina f de a igual ao valor do limite.
+Exemplo: f de x é x ao quadrado menos nove, tudo dividido por x menos três, para x diferente de três. E f de três vale cinco.
+f de três existe, vale cinco. O limite existe, já vimos que é seis. Mas cinco é diferente de seis.
+Então não é contínua. Para ser, f de três deveria valer seis.
 PERGUNTA: Uma função F tem limite dois quando x tende a um, mas F de um vale três. F é contínua em um? Quanto F de um deveria valer?
-RESPOSTA: Não é contínua, porque o valor três é diferente do limite dois. Para ser contínua, F de um deveria valer dois.
+RESPOSTA: Não é contínua, porque três é diferente do limite dois. F de um deveria valer dois.
 PERGUNTA: Aquela função S, que vale x mais três antes de dois e x ao quadrado a partir de dois, é contínua em dois?
-RESPOSTA: Não. Os laterais dão cinco e quatro, então o limite não existe, e a segunda pergunta já falha.
+RESPOSTA: Não. Os laterais dão cinco e quatro, então o limite não existe.
 Ideia-chave: contínua é quando f de a existe, o limite existe, e os dois são iguais.
 
 ## Abertura do áudio extra {extra}
@@ -161,90 +117,63 @@ Olá! Este é o áudio extra só de limite no infinito, para você repetir quant
 Depois de cada pergunta você tem cinco segundos para responder de cabeça. Depois do sinal, eu falo a resposta.
 
 ## Limite no infinito {principal, extra}
-
-Agora vamos para o assunto mais importante: limite no infinito. Vamos com calma.
-Até agora, x chegava perto de um número. Agora, x vai crescer sem parar. Dez, mil, um milhão, um bilhão.
-A pergunta é: quando x fica gigante, para onde vai a função?
-Tudo começa com uma ideia base: um número fixo dividido por algo gigante vira quase zero.
-Veja em voz alta. Um dividido por dez dá zero vírgula um.
-Um dividido por mil dá zero vírgula zero zero um.
-Um dividido por um milhão dá zero vírgula zero zero zero zero zero um. Praticamente nada.
-Quanto maior o de baixo, menor o resultado. Ele vai encostando no zero.
-Por isso, cinco sobre x vai para zero quando x vai para infinito. Três sobre x ao quadrado também vai para zero.
-Número fixo em cima, coisa gigante embaixo: zero.
-A segunda ideia é: olhe só o maior expoente.
-Quando x é gigante, o termo de maior expoente manda, e os outros ficam desprezíveis.
-Veja com x igual a mil. x ao quadrado dá um milhão. Três x dá só três mil.
-Três mil perto de um milhão é quase nada. É como uma moeda perto de uma pilha de dinheiro.
-E quanto maior o x, mais o termo de maior expoente domina.
-Chamamos o maior expoente de grau. x ao quadrado tem grau dois. x ao cubo tem grau três. Cinco x tem grau um. Um número sozinho tem grau zero.
-Numa fração, compare o grau de cima com o grau de baixo. São três regras.
-Regra um: grau de cima igual ao grau de baixo. O limite é a divisão dos números que acompanham os maiores expoentes.
-Por quê? Porque os termos de maior grau dominam, e os x ao quadrado de cima e de baixo se cancelam. Sobram só os números da frente.
-Por exemplo, seis x ao quadrado mais x, tudo dividido por dois x ao quadrado mais três: seis dividido por dois, dá três.
-Regra dois: grau de cima maior. O limite vai para mais infinito ou para menos infinito.
-Por quê? Porque o de cima cresce muito mais rápido que o de baixo. A divisão fica cada vez maior.
-Regra três: grau de cima menor. O limite vai para zero.
-Por quê? Porque o de baixo cresce muito mais rápido. Fica parecido com um número fixo dividido por algo gigante.
-Por exemplo, doze, tudo dividido por t mais três. Em cima o grau é zero, embaixo é um. Vai para zero.
-E cinco x mais um, tudo dividido por x ao quadrado mais quatro. Grau um em cima, grau dois embaixo. Vai para zero.
-Decore esta frase: Igual, divide os da frente. Cima maior, infinito. Baixo maior, zero.
-Vou repetir: Igual, divide os da frente. Cima maior, infinito. Baixo maior, zero.
-Primeiro exemplo resolvido. Limite quando x tende a infinito de seis x ao quadrado mais x, tudo dividido por dois x ao quadrado mais três.
-Passo um: acho o grau de cima. O maior expoente em cima é dois, por causa do seis x ao quadrado.
-Passo dois: acho o grau de baixo. Também é dois, por causa do dois x ao quadrado.
-Graus iguais. Então uso a regra um: divido os números da frente.
-O x sozinho em cima e o três embaixo ficam desprezíveis quando x é gigante.
-Sobra seis x ao quadrado sobre dois x ao quadrado. Os x ao quadrado se cancelam, e fica seis dividido por dois, que dá três.
-O limite é três. E isso quer dizer que a assíntota horizontal é y igual a três.
-Segundo exemplo. Limite quando x tende a infinito de x ao cubo menos oito, tudo dividido por x ao quadrado mais um.
-Grau de cima: três. Grau de baixo: dois. O de cima é maior.
-Pela regra dois, vai para infinito. Mas qual infinito? O termo que manda em cima é x ao cubo, positivo. Embaixo manda x ao quadrado, positivo. Positivo sobre positivo.
-Então vai para mais infinito, porque o de cima cresce muito mais rápido que o de baixo.
-Como deu infinito, essa função não tem assíntota horizontal.
-Agora um caso que aparece muito: um número somado do lado de fora da fração.
-Terceiro exemplo. Limite quando t tende a infinito de dois mais seis, tudo dividido por t mais um.
-Separo as partes. O dois está do lado de fora, sozinho. Ele não muda, continua dois.
-A fração seis sobre t mais um tem número fixo em cima e algo gigante embaixo. Ela vai para zero.
-Então fica dois mais zero, que é dois. O limite é dois.
-Agora, a assíntota horizontal. Se o limite no infinito dá um número L, a assíntota horizontal é y igual a L.
-No primeiro exemplo, y igual a três. No terceiro, y igual a dois. Se o limite dá infinito, não existe assíntota horizontal.
-E se x for para menos infinito? Com graus iguais, a resposta é a mesma: divide os da frente.
-Por exemplo, três x ao quadrado menos dois x, tudo dividido por x ao quadrado mais quatro, com x tendendo a menos infinito. Graus iguais, três dividido por um, dá três.
-Isso funciona porque os x ao quadrado continuam se cancelando, mesmo com x negativo.
-Último cuidado: os números da frente podem ser negativos. Mantenha o sinal.
-Por exemplo, menos quatro x ao quadrado mais um, tudo dividido por dois x ao quadrado menos x. Graus iguais. Menos quatro dividido por dois dá menos dois.
-Na prova, escreva assim: Para x muito grande, os termos de maior grau dominam. O limite é seis x ao quadrado sobre dois x ao quadrado, que é três. Logo, a assíntota horizontal é y igual a três.
-Agora, as perguntas sobre limite no infinito.
+Agora o assunto mais importante: limite no infinito. Vamos com calma.
+Aqui x não chega perto de um número. Ele cresce sem parar: mil, um milhão, um bilhão.
+A ideia base: um número fixo dividido por algo gigante vira quase zero.
+Um dividido por dez dá zero vírgula um. Um dividido por mil dá zero vírgula zero zero um.
+Um dividido por um milhão é praticamente nada.
+Por isso, cinco sobre x, ou três sobre x ao quadrado, vão para zero quando x vai para infinito.
+A segunda ideia: olhe só o maior expoente. Com x gigante, o termo de maior expoente manda, e os outros ficam desprezíveis.
+Com x igual a mil, x ao quadrado dá um milhão, enquanto três x dá só três mil. Quase nada perto de um milhão.
+O maior expoente se chama grau. Numa fração, compare o grau de cima com o grau de baixo. São três regras.
+Regra um: grau de cima igual ao de baixo. O limite é a divisão dos números que acompanham os maiores expoentes.
+Por quê? Os x ao quadrado de cima e de baixo se cancelam, e sobram os números da frente.
+Regra dois: grau de cima maior. Vai para mais ou menos infinito, porque o de cima cresce muito mais rápido.
+Regra três: grau de cima menor. Vai para zero, porque o de baixo cresce muito mais rápido.
+Por exemplo, doze, tudo dividido por t mais três, vai para zero. E cinco x mais um, tudo dividido por x ao quadrado mais quatro, também vai para zero.
+Decore: Igual, divide os da frente. Cima maior, infinito. Baixo maior, zero.
+De novo: Igual, divide os da frente. Cima maior, infinito. Baixo maior, zero.
+Primeiro exemplo: limite quando x tende a infinito de seis x ao quadrado mais x, tudo dividido por dois x ao quadrado mais três.
+Grau de cima: dois. Grau de baixo: dois. Graus iguais, regra um.
+O x sozinho e o três ficam desprezíveis. Sobra seis x ao quadrado sobre dois x ao quadrado.
+Os x ao quadrado se cancelam, e fica seis dividido por dois, que dá três. A assíntota horizontal é y igual a três.
+Segundo exemplo: limite quando x tende a infinito de x ao cubo menos oito, tudo dividido por x ao quadrado mais um.
+Grau três em cima, grau dois embaixo. O de cima é maior, regra dois.
+Os termos que mandam, x ao cubo e x ao quadrado, são positivos. Então vai para mais infinito, e não há assíntota horizontal.
+Terceiro exemplo, com um número somado do lado de fora: limite quando t tende a infinito de dois mais seis, tudo dividido por t mais um.
+O dois de fora não muda. A fração tem número fixo em cima e algo gigante embaixo, então vai para zero.
+Fica dois mais zero, que é dois.
+Assíntota horizontal: se o limite no infinito dá um número L, a assíntota é y igual a L. Se dá infinito, não tem assíntota horizontal.
+Com x indo para menos infinito e graus iguais, a resposta é a mesma: divide os da frente.
+Por exemplo, três x ao quadrado menos dois x, tudo dividido por x ao quadrado mais quatro, com x tendendo a menos infinito, dá três dividido por um, que é três.
+Os números da frente podem ser negativos. Menos quatro x ao quadrado mais um, tudo dividido por dois x ao quadrado menos x, dá menos quatro dividido por dois, que é menos dois.
+Na prova, escreva: Para x muito grande, os termos de maior grau dominam. O limite é seis x ao quadrado sobre dois x ao quadrado, que é três. Logo, a assíntota horizontal é y igual a três.
+Agora, as perguntas.
 PERGUNTA: Calcule o limite quando x tende a infinito de quatro x ao quadrado menos três x mais um, tudo dividido por dois x ao quadrado mais cinco.
-RESPOSTA: Dois. Os dois lados têm grau dois, então divide os da frente: quatro dividido por dois dá dois.
+RESPOSTA: Dois. Graus iguais, então quatro dividido por dois dá dois.
 PERGUNTA: Calcule o limite quando x tende a infinito de sete x ao cubo mais dois, tudo dividido por x ao cubo menos cinco x.
-RESPOSTA: Sete. Grau três em cima e grau três embaixo. O número da frente embaixo é um, e sete dividido por um dá sete.
+RESPOSTA: Sete. Graus iguais, e sete dividido por um dá sete.
 PERGUNTA: Calcule o limite quando t tende a infinito de doze, tudo dividido por t mais três.
-RESPOSTA: Zero. Número fixo em cima e algo gigante embaixo, porque o grau de baixo é maior.
+RESPOSTA: Zero. Número fixo em cima e algo gigante embaixo.
 PERGUNTA: Calcule o limite quando t tende a infinito de cinco mais dez, tudo dividido por t mais dois. E qual é a assíntota horizontal?
-RESPOSTA: Cinco, e a assíntota horizontal é y igual a cinco. A fração vai para zero e sobra o cinco de fora.
+RESPOSTA: Cinco, e a assíntota horizontal é y igual a cinco. A fração vai para zero e sobra o cinco.
 PERGUNTA: O grau de cima é dois e o grau de baixo é três. Para onde vai o limite no infinito?
-RESPOSTA: Para zero, porque o grau de baixo é maior, e o de baixo cresce mais rápido.
+RESPOSTA: Para zero, porque o grau de baixo é maior.
 PERGUNTA: O grau de cima é três e o grau de baixo é dois. Tem assíntota horizontal?
-RESPOSTA: Não tem. O grau de cima é maior, então o limite vai para infinito, e infinito não dá assíntota horizontal.
+RESPOSTA: Não. O grau de cima é maior, então o limite vai para infinito, e infinito não dá assíntota horizontal.
 PERGUNTA: O limite no infinito deu quatro. Qual é a assíntota horizontal?
-RESPOSTA: y igual a quatro. Quando o limite no infinito dá um número L, a assíntota horizontal é y igual a L.
-Ideia-chave do limite no infinito: olhe só os maiores expoentes. Igual, divide os da frente. Cima maior, infinito. Baixo maior, zero.
+RESPOSTA: y igual a quatro, porque limite no infinito igual a L dá assíntota y igual a L.
+Ideia-chave: olhe só os maiores expoentes. Igual, divide os da frente. Cima maior, infinito. Baixo maior, zero.
 
 ## Encerramento do áudio extra {extra}
 
 Fim do áudio de limite no infinito. Volte ao começo e repita até as respostas saírem rápido. Bons estudos!
 
 ## Como escrever na prova {principal}
-
-Para fechar o conteúdo, vamos ver como escrever as respostas na prova.
-Não basta o número. Escreva uma frase que diga o que o limite significa.
-Num problema com contexto, use as unidades. Por exemplo: Quando t se aproxima de quatro minutos, a temperatura se aproxima de oito graus.
-Quando os laterais são diferentes, escreva: O limite não existe, pois os limites laterais são diferentes.
-Quando vai para infinito: Quando x se aproxima de um pela direita, a função cresce sem limitação, e x igual a um é uma assíntota vertical.
-Na continuidade: A função não é contínua em dois, pois o limite não existe. Ou então: não é contínua, pois f de um é diferente do limite.
-No infinito: Quando x cresce sem parar, a função se aproxima de três, logo a assíntota horizontal é y igual a três.
+Para fechar, como escrever na prova. Não basta o número: escreva uma frase com o significado e a unidade.
+Por exemplo: Quando t se aproxima de quatro minutos, a temperatura se aproxima de oito graus.
+Laterais diferentes: O limite não existe, pois os limites laterais são diferentes.
+Continuidade: A função não é contínua em dois, pois o limite não existe.
 PERGUNTA: Os limites laterais deram cinco e quatro. Como você escreve a conclusão?
 RESPOSTA: O limite não existe, pois os limites laterais são diferentes.
 PERGUNTA: O limite da temperatura quando t tende a quatro minutos é oito graus. Como escrever isso em uma frase?

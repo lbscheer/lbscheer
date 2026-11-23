@@ -144,20 +144,20 @@ def checagens():
         # ---------------- LIMITES ----------------
         (lim, "lim x->2 de x^2+3x", L(x**2 + 3 * x, x, 2), 10, "a resposta é dez"),
         (lim, "lim x->2 de 3x+1", L(3 * x + 1, x, 2), 7, "RESPOSTA: Sete. Substituindo"),
-        (lim, "lim x->2 de (x^2-4)/(x+2)", L((x**2 - 4) / (x + 2), x, 2), 0, "Zero dividido por quatro é zero"),
+        (lim, "lim x->2 de (x^2-4)/(x+2)", L((x**2 - 4) / (x + 2), x, 2), 0, "O limite é zero, e não precisa fatorar"),
         (lim, "lim x->1 de (x^2-1)/(x+3)", L((x**2 - 1) / (x + 3), x, 1), 0, "RESPOSTA: Zero. Em cima dá um menos um"),
         (lim, "lim x->2 de (x+6)/(x+2)", L((x + 6) / (x + 2), x, 2), 2, "RESPOSTA: Dois. Em cima dá oito"),
         (lim, "fatoração x^2-9 = (x-3)(x+3)", sp.expand((x - 3) * (x + 3)), x**2 - 9, "x ao quadrado menos nove é igual a x menos três, vezes x mais três"),
         (lim, "fatoração x^2-3x = x(x-3)", sp.expand(x * (x - 3)), x**2 - 3 * x, "x ao quadrado menos três x é igual a x vezes x menos três"),
         (lim, "atalho x^2+x-6 = (x-2)(x+3)", sp.expand((x - 2) * (x + 3)), x**2 + x - 6, "Então fica x menos dois, vezes x mais três"),
         (lim, "lim x->3 de (x^2-9)/(x-3)", L((x**2 - 9) / (x - 3), x, 3), 6, "três mais três dá seis. O limite é seis"),
-        (lim, "lim x->3 de (x^2-3x)/(x-3)", L((x**2 - 3 * x) / (x - 3), x, 3), 3, "sobra x, que vale três"),
-        (lim, "lim x->2 de (x^2-5x+6)/(x-2)", L((x**2 - 5 * x + 6) / (x - 2), x, 2), -1, "RESPOSTA: Menos um. Fatora em x menos dois, vezes x menos três"),
+        (lim, "lim x->3 de (x^2-3x)/(x-3)", L((x**2 - 3 * x) / (x - 3), x, 3), 3, "Corta o x menos três e sobra x, que vale três"),
+        (lim, "lim x->2 de (x^2-5x+6)/(x-2)", L((x**2 - 5 * x + 6) / (x - 2), x, 2), -1, "RESPOSTA: Menos um. Fatora em x menos dois, vezes x menos três. Corta e sobra dois menos três"),
         (lim, "fatoração x^2-5x+6 = (x-2)(x-3)", sp.expand((x - 2) * (x - 3)), x**2 - 5 * x + 6, "Fatora em x menos dois, vezes x menos três"),
         (lim, "x^2+9 em x=3", (x**2 + 9).subs(x, 3), 18, "RESPOSTA: Dezoito"),
         (lim, "x^2+9 sem raiz real", len(sp.solve(x**2 + 9, x)), 0, "x ao quadrado mais nove nunca dá zero"),
-        (lim, "lim x->4- de 3/(x-4)", lado(3 / (x - 4), 4, "-"), -oo, "Pela esquerda vai para menos infinito"),
-        (lim, "lim x->4+ de 3/(x-4)", lado(3 / (x - 4), 4, "+"), oo, "Pela direita vai para mais infinito"),
+        (lim, "lim x->4- de 3/(x-4)", lado(3 / (x - 4), 4, "-"), -oo, "Positivo sobre negativo: menos infinito"),
+        (lim, "lim x->4+ de 3/(x-4)", lado(3 / (x - 4), 4, "+"), oo, "Positivo sobre positivo: mais infinito"),
         (lim, "lim x->1- de 5/(x-1)", lado(5 / (x - 1), 1, "-"), -oo, "Pela esquerda dá menos infinito e pela direita dá mais infinito"),
         (lim, "lim x->1+ de 5/(x-1)", lado(5 / (x - 1), 1, "+"), oo, "assíntota vertical é x igual a um"),
         (lim, "lim x->2- de 3/(x-2)^2", lado(3 / (x - 2) ** 2, 2, "-"), oo, "Mais infinito dos dois lados"),
@@ -177,9 +177,9 @@ def checagens():
         (lim, "lim x->oo (-4x^2+1)/(2x^2-x)", L((-4 * x**2 + 1) / (2 * x**2 - x), x, oo), -2, "RESPOSTA: Menos dois. Graus iguais"),
         (lim, "lim x->oo (4x^2-3x+1)/(2x^2+5)", L((4 * x**2 - 3 * x + 1) / (2 * x**2 + 5), x, oo), 2, "quatro dividido por dois dá dois"),
         (lim, "lim x->oo (7x^3+2)/(x^3-5x)", L((7 * x**3 + 2) / (x**3 - 5 * x), x, oo), 7, "sete dividido por um dá sete"),
-        (lim, "lim t->oo 5+10/(t+2)", L(5 + 10 / (t + 2), t, oo), 5, "a assíntota horizontal é y igual a cinco"),
+        (lim, "lim t->oo 5+10/(t+2)", L(5 + 10 / (t + 2), t, oo), 5, "Cinco, e a assíntota horizontal é y igual a cinco"),
         (lim, "grau 2 sobre grau 3 -> 0", L((x**2) / (x**3), x, oo), 0, "RESPOSTA: Para zero, porque o grau de baixo é maior"),
-        (lim, "grau 3 sobre grau 2 -> oo", L((x**3) / (x**2), x, oo), oo, "o limite vai para infinito, e infinito não dá assíntota"),
+        (lim, "grau 3 sobre grau 2 -> oo", L((x**3) / (x**2), x, oo), oo, "o limite vai para infinito, e infinito não dá assíntota horizontal"),
         (lim, "lim x->4 (x^2-16)/(x-4)", L((x**2 - 16) / (x - 4), x, 4), 8, "RESPOSTA: Oito. Deu zero sobre zero"),
         (lim, "zero do denominador x+5", sp.solve(x + 5, x)[0], -5, "x igual a menos cinco"),
         (lim, "lim x->3 (x^2+9)/(x+3)", L((x**2 + 9) / (x + 3), x, 3), 3, "dezoito sobre seis, que é três"),
@@ -317,7 +317,7 @@ class MotorGTTS(Motor):
 
 
 class MotorKokoro(Motor):
-    def __init__(self, voz: str = "pm_alex", velocidade: float = 1.0):
+    def __init__(self, voz: str = "pm_alex", velocidade: float = 1.05):
         from kokoro_onnx import Kokoro
 
         MODELOS.mkdir(exist_ok=True)
@@ -328,7 +328,7 @@ class MotorKokoro(Motor):
                 urllib.request.urlretrieve(url, alvo)
         self.k = Kokoro(str(MODELOS / "kokoro-v1.0.onnx"), str(MODELOS / "voices-v1.0.bin"))
         self.voz, self.vel = voz, velocidade
-        self.nome = f"Kokoro offline ({voz}, pt-br)"
+        self.nome = f"Kokoro offline ({voz}, pt-br, velocidade {velocidade})"
 
     @property
     def ext(self):
