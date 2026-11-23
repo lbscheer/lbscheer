@@ -16,7 +16,6 @@ Vamos começar.
 
 ## O que é limite e o passo um {principal}
 Limite responde a uma pergunta: para onde a função vai quando x chega perto de um número.
-Limite quando x tende a três quer dizer: x chegando cada vez mais perto de três.
 O passo um é sempre o mesmo: substitua x pelo número.
 Aí aparecem três casos. Deu um número, é a resposta. Deu zero sobre zero, fatore. Deu número sobre zero, vai para infinito.
 Exemplo: limite quando x tende a dois de x ao quadrado mais três x.
@@ -30,8 +29,7 @@ Guarde: limite é para onde a função vai, e o primeiro passo é sempre substit
 
 ## Caso um: deu um número {principal}
 Agora o caso em que a substituição dá um número. Pronto: esse número é o limite.
-Cuidado com uma pegadinha: zero dividido por um número dá zero, e zero é resposta válida.
-Zero sobre quatro é zero. Só é problema quando o zero está embaixo.
+Pegadinha: zero dividido por um número dá zero, e zero é resposta válida. Só é problema quando o zero está embaixo.
 Exemplo: limite quando x tende a dois de x ao quadrado menos quatro, tudo dividido por x mais dois.
 Em cima, quatro menos quatro dá zero. Embaixo, dois mais dois dá quatro.
 Zero sobre quatro é zero. O limite é zero, e não precisa fatorar.
@@ -44,19 +42,17 @@ Ideia-chave: deu número, é a resposta, e zero sobre um número é zero.
 ## Caso dois: zero sobre zero {principal}
 Agora o caso mais comum na prova: a substituição dá zero sobre zero.
 Zero sobre zero não é resposta. É um aviso: existe um fator x menos a escondido em cima e embaixo, onde a é o número para onde x tende.
-Você abre as expressões, corta esse fator e substitui de novo.
-Pode cortar porque x chega perto de a, mas não é igual a a. Então x menos a não é zero.
+Você abre as expressões, corta esse fator e substitui de novo. Pode cortar porque x chega perto de a, mas não é igual a a.
 Três jeitos de abrir. Primeiro, diferença de quadrados: x ao quadrado menos nove é igual a x menos três, vezes x mais três.
 Segundo, fator comum: x ao quadrado menos três x é igual a x vezes x menos três.
 Terceiro, trinômio por soma e produto: dois números que somam o do meio e multiplicam o do final.
 Atalho: se x tende a dois, um fator é x menos dois, e o outro número é o termo final dividido por menos dois.
 Por exemplo, x ao quadrado mais x menos seis: menos seis dividido por menos dois dá três. Então fica x menos dois, vezes x mais três.
 Cuidado: x ao quadrado mais nove nunca dá zero, porque x ao quadrado nunca é negativo. Ele nunca é o culpado do zero sobre zero. Nele, só substitua.
-E se aparecer raiz quadrada com zero sobre zero, a técnica é o conjugado. Por enquanto, só guarde o nome.
+Com raiz quadrada e zero sobre zero, a técnica é o conjugado. Só guarde o nome.
 Exemplo: limite quando x tende a três de x ao quadrado menos nove, tudo dividido por x menos três.
-Substituo: nove menos nove, sobre três menos três. Deu zero sobre zero.
-Abro em cima por diferença de quadrados: x menos três, vezes x mais três.
-Corto o x menos três de cima com o de baixo. Sobra x mais três.
+Substituindo, deu zero sobre zero. Abro em cima: x menos três, vezes x mais três.
+Corto o x menos três de cima com o de baixo, e sobra x mais três.
 Substituo de novo: três mais três dá seis. O limite é seis.
 PERGUNTA: Calcule o limite quando x tende a três de x ao quadrado menos três x, tudo dividido por x menos três.
 RESPOSTA: Três. Pelo fator comum, fica x vezes x menos três. Corta o x menos três e sobra x, que vale três.
@@ -68,9 +64,8 @@ Ideia-chave: zero sobre zero significa fator escondido. Fatore, corte e substitu
 
 ## Caso três: número sobre zero {principal}
 Agora o terceiro caso: a substituição dá um número diferente de zero, dividido por zero. Por exemplo, cinco sobre zero.
-Número fixo dividido por algo minúsculo fica gigante. A função vai para o infinito. Falta só descobrir o sinal.
-Teste os dois lados. Pela esquerda, use a menos zero vírgula zero um. Pela direita, a mais zero vírgula zero um.
-Regra de sinais: positivo sobre positivo dá positivo, positivo sobre negativo dá negativo, e negativo sobre negativo dá positivo.
+Número fixo dividido por algo minúsculo fica gigante. Falta só descobrir o sinal.
+Teste os dois lados: a menos zero vírgula zero um, e a mais zero vírgula zero um. Sinais iguais dão positivo, sinais diferentes dão negativo.
 Se os dois lados dão o mesmo infinito, o limite é esse infinito. Se dão sinais diferentes, o limite não existe.
 Atalho: denominador ao quadrado é sempre positivo, então o sinal depende só do de cima.
 E onde o denominador zera, existe uma assíntota vertical.
@@ -86,8 +81,7 @@ Ideia-chave: número sobre zero vai para infinito. Teste o sinal dos dois lados.
 
 ## Função com duas regras e limites laterais {principal}
 Agora, funções com duas regras: uma fórmula para x menor que um número, e outra para x maior ou igual a ele.
-No ponto de troca, calcule os dois limites laterais.
-A esquerda usa a regra do menor que. A direita usa a regra do maior ou igual.
+No ponto de troca, a esquerda usa a regra do menor que. A direita usa a regra do maior ou igual.
 Se os laterais forem iguais, o limite existe. Se forem diferentes, não existe.
 Exemplo: g de x vale dois x mais um para x menor que um, e vale x mais dois para x maior ou igual a um.
 Pela esquerda: dois vezes um, mais um, dá três. Pela direita: um mais dois dá três. São iguais, então o limite é três.
@@ -98,7 +92,7 @@ RESPOSTA: Existe e vale sete, porque os laterais são iguais.
 Ideia-chave: esquerda usa o menor que, direita usa o maior ou igual. Iguais, o limite existe.
 
 ## Continuidade {principal}
-Agora, continuidade. Ser contínua é poder desenhar o gráfico ali sem tirar o lápis do papel.
+Agora, continuidade: desenhar o gráfico sem tirar o lápis do papel.
 Na prova, faça três perguntas. Um: f de a existe? Dois: o limite existe? Três: f de a é igual ao limite?
 Três vezes sim, é contínua. Qualquer não, não é contínua.
 Para tornar a função contínua, defina f de a igual ao valor do limite.
@@ -173,7 +167,6 @@ Fim do áudio de limite no infinito. Volte ao começo e repita até as respostas
 Para fechar, como escrever na prova. Não basta o número: escreva uma frase com o significado e a unidade.
 Por exemplo: Quando t se aproxima de quatro minutos, a temperatura se aproxima de oito graus.
 Laterais diferentes: O limite não existe, pois os limites laterais são diferentes.
-Continuidade: A função não é contínua em dois, pois o limite não existe.
 PERGUNTA: Os limites laterais deram cinco e quatro. Como você escreve a conclusão?
 RESPOSTA: O limite não existe, pois os limites laterais são diferentes.
 PERGUNTA: O limite da temperatura quando t tende a quatro minutos é oito graus. Como escrever isso em uma frase?
@@ -191,19 +184,17 @@ Para fatorar: diferença de quadrados, fator comum, ou soma e produto.
 x ao quadrado mais nove nunca zera. Nele, só substitua.
 Zero sobre zero com raiz quadrada: a técnica é o conjugado.
 Deu número sobre zero: vai para infinito. Teste o sinal com a menos zero vírgula zero um, e a mais zero vírgula zero um.
-Denominador ao quadrado é sempre positivo.
-Onde o denominador zera, há assíntota vertical.
+Denominador ao quadrado é sempre positivo, e onde o denominador zera há assíntota vertical.
 Função com duas regras: a esquerda usa o menor que, a direita usa o maior ou igual. Se forem iguais, o limite existe.
 Contínua: f de a existe, o limite existe, e os dois são iguais.
 No infinito: Igual, divide os da frente. Cima maior, infinito. Baixo maior, zero.
-Número somado do lado de fora continua lá.
 Limite no infinito igual a L dá assíntota horizontal y igual a L.
 
 ## Quiz final {principal}
 
-Agora, o quiz final, misturando tudo. São oito perguntas. Lembre: cinco segundos para responder de cabeça.
+Agora, o quiz final, com oito perguntas misturando tudo.
 PERGUNTA: Calcule o limite quando x tende a quatro de x ao quadrado menos dezesseis, tudo dividido por x menos quatro.
-RESPOSTA: Oito. Deu zero sobre zero. Pela diferença de quadrados, fica x menos quatro, vezes x mais quatro. Corta e sobra quatro mais quatro, que dá oito.
+RESPOSTA: Oito. Deu zero sobre zero. Fatora em x menos quatro, vezes x mais quatro, corta e sobra quatro mais quatro.
 PERGUNTA: Calcule o limite quando x tende a infinito de cinco x mais um, tudo dividido por x ao quadrado mais quatro.
 RESPOSTA: Zero. O grau de baixo, dois, é maior que o de cima, um.
 PERGUNTA: Onde fica a assíntota vertical de dois, tudo dividido por x mais cinco?
@@ -211,14 +202,14 @@ RESPOSTA: Em x igual a menos cinco, porque é onde o denominador zera e o de cim
 PERGUNTA: Calcule o limite quando x tende a infinito de menos quatro x ao quadrado mais um, tudo dividido por dois x ao quadrado menos x.
 RESPOSTA: Menos dois. Graus iguais, então divide os da frente mantendo o sinal: menos quatro dividido por dois.
 PERGUNTA: Deu zero sobre zero e a expressão tem raiz quadrada. Qual técnica você usa?
-RESPOSTA: O conjugado. Quando aparece raiz quadrada com zero sobre zero, multiplica pelo conjugado.
+RESPOSTA: O conjugado.
 PERGUNTA: Calcule o limite quando x tende a três de x ao quadrado mais nove, tudo dividido por x mais três.
 RESPOSTA: Três. Substituindo, dá dezoito sobre seis, que é três. É caso um, e x ao quadrado mais nove nunca zera.
 PERGUNTA: Calcule o limite quando x tende a menos infinito de três x ao quadrado menos dois x, tudo dividido por x ao quadrado mais quatro.
 RESPOSTA: Três. Com graus iguais, a resposta no menos infinito é a mesma: três dividido por um.
 PERGUNTA: Uma função vale x mais um quando x é menor que dois, e vale três x menos três quando x é maior ou igual a dois. Ela é contínua em dois?
-RESPOSTA: Sim. Os dois laterais dão três, então o limite é três, e o valor no ponto, pela regra do maior ou igual, também é três.
+RESPOSTA: Sim. Os dois laterais dão três, e o valor no ponto também é três.
 
 ## Encerramento {principal}
 
-Fim da aula de limites. Se errou alguma pergunta, volte no bloco dela e escute de novo. Bons estudos!
+Fim da aula de limites. Se errou alguma pergunta, escute o bloco dela de novo. Bons estudos!
